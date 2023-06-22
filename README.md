@@ -1,1 +1,5 @@
-# Intro_to_ml_final_project
+## Introduction
+
+#### This notebook is for the final project of 5509 Intro to Machine Learning. I decided to do a classification problem that determines if a mushroom is edible or poisonous based on its characteristics. I perform some preprocessing on the data such as Label Encoding, dropping an irrelevant feature, renaming the target variable and changing 'e' and 'p' to 1 and 0. I then build a Statsmodels Generalized Linear Model (GLM) with formula and used back selection to remove insignificant variables with high p-values. I also used the Statsmodels Logit function to build a seperate model for comparison. I then used a few Sklearn models including a Random Forect Classifier and Decision Tree Classifier. Both achieved perfect test accuracy of 1.0. FInally, I built a logistic regression model from Sklearn using their scaling pipeline. This model achieved a test accuracy of 0.952.
+
+#### The data is in .csv format and was retrieved from https://www.kaggle.com/datasets/uciml/mushroom-classification?resource=download&select=mushrooms.csv .
